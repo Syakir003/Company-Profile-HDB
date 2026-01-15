@@ -109,7 +109,7 @@ function sendWA(event) {
     return;
   }
 
-  const waNumber = "6282333318107";
+  const waNumber = "6281515729739";
   const waMessage = `
 Halo HDB Airconds,
 
@@ -127,3 +127,4 @@ ${message}
     "_blank"
   );
 }
+
