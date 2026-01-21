@@ -5,9 +5,7 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'AW-16651311424');
+      gtag('js', new Date()); gtag('config', 'AW-16651311424');
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -109,7 +107,7 @@
                   <textarea id="message" rows="6" required></textarea>
                 </div>
 
-                <button type="submit" class="btn-primary">Kirim Pesan</button>
+                <button type="submit" onclick="gtag('event', 'conversion', {'send_to': 'AW-16651311424/XXXXXXX'});" class="btn-primary">Kirim Pesan</button>
               </form>
             </div>
 
@@ -226,4 +224,5 @@
     <script src="script.js"></script>
   </body>
 </html>
+
 
